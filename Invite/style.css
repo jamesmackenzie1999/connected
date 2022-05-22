@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(ABCDiatype-Medium-Trial.otf);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+input {
+  width: 250px;
+  height:30;
+  padding: 10px;
+  color: #ececec;
+  border: 1px solid;
+  border-color: 'rgb(226, 117, 94)';
+  background-color: #1b1b1b;
+  font-family: myFirstFont;
+  text-align: left;
+}
