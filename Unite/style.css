@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  height:100%;
+  background-color: #1b1b1b;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  font-size: 50px;
+  left:0
+}
+canvas {
+  display: block;  
+}
+
+p {
+  font-size: 50px;
+}
+
+input {
+  color: #e9e7e2;
+  background: rgb(51, 51, 51);
+  border: 1;
+  border-color: #e9e7e2;
+  border-radius:8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  width: 96%;
+  font-size:50px;
+  padding: 20px 20px;
+  margin: 0px;
+}
+
+main {
+  margin-left: 0px ;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  body {
+    width:9/16vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+  }
+  main {
+    display: block;
+    margin-left: 20vw;
+    margin-right: auto;
+  }
+}
